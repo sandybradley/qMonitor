@@ -21,7 +21,7 @@ This script subscribes to all bitcoin market trades on the following exchanges:
 
 Real-time logging in the trades table enables real-time signals and triggers. Please contact me directly to request custom signals.
 
-Pre-requisits:
+Pre-requisites:
 
 KDB+ (https://kx.com/connect-with-us/download/)
 
