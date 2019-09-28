@@ -21,6 +21,16 @@ This script subscribes to all bitcoin market trades on the following exchanges:
 
 Real-time logging in the trades table enables real-time signals and triggers. Please contact me directly to request custom signals.
 
+Start with:
+
+q -s 4
+
+\l qmonitor.q
+
+View trades table
+
+http://localhost:5010/
+
 # Donate for development
 
 BTC - 112eMCQJUkUz7kvxDSFCGf1nnFJZ61CE4W
@@ -38,6 +48,8 @@ XRP - rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh Tag: 103535357
 EOS - binancecleos Memo: 103117718
 
 # Recommended links
+
+Shrimpy's API saved me alot of time with this script  - https://shrimpy.io/referral?r=gQMHqFcZP
 
 Getting started - Coinbase - https://www.coinbase.com/join/bradle_6r
 
