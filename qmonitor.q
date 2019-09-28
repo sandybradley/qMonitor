@@ -42,7 +42,7 @@ upd:{
 
 subpairs:{ wait[2]; h .j.j `type`exchange`pair`channel!(`subscribe;currentExchange;`$x;`trade);}
 
-sub:{   currentExchange:: x;  subpairs peach pairs[x];}
+sub:{   currentExchange:: x;  subpairs each pairs[x];}
 
 sub each exchanges;
 
