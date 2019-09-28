@@ -27,8 +27,6 @@ KDB+ (https://kx.com/connect-with-us/download/)
 
 Start with:
 
-q -s 4
-
 \l qmonitor.q
 
 View trades table
