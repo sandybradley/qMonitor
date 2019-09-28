@@ -1,0 +1,1 @@
+wait:{[x] system"ping 127.0.0.1 -n ",(string x+1)," > nul"}; // sleep for windows, x = number of seconds (int)
