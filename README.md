@@ -64,7 +64,6 @@ Futures trading - Deribit - https://www.deribit.com/reg-8106.6912
 Cold wallet - https://atomicWallet.io?kid=12GR52 (promo 12GR52) - https://hodler.tech/
 
 Learn to earn (coinbase users) - Stellar - https://coinbase.com/earn/xlm/invite/vps5dfzt
-
                                -  EOS - https://coinbase.com/earn/eos/invite/xdbgswqk
                                
                                
