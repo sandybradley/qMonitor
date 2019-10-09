@@ -23,8 +23,6 @@ upd:{
   ];  
  };
 
-h:.ws.open["wss://stream.binance.com:9443/stream?streams=",raze {x,"%40aggTrade/"} each pairs;`upd];
+h:.ws.open["wss://stream.binance.com:9443/stream?streams=",raze {x,"@aggTrade/"} each pairs;`upd];
+//h:.ws.open["wss://stream.binance.com:9443/stream?streams=btcusdt@aggTrade";`upd];
 
-.z.ts:{[] save `trades};
-
- \t 600000
