@@ -11,8 +11,10 @@ hap:{[x]
   if[x~hsym`$255#"a";'"hsym too long - consider using a string"];                   //error if URL~`: .. too long
   x:sturl x;                                                                        //ensure string URL
   p:x til pn:3+first ss[x;"://"];                                                   //protocol
-  u:-1_$["@"in x;(pn _ x) til (un:1+first ss[x;"@"])-pn;""];                        //user:pass
-  if[u~"";un:pn];                                           //if no user:pass, look for domain after protocol
+ // u:-1_$["@"in x;(pn _ x) til (un:1+first ss[x;"@"])-pn;""];                        //user:pass
+  //if[u~"";un:pn];                                           //if no user:pass, look for domain after protocol
+  u:"";
+  un:pn;
   d:x til dn:count[x]^first ss[x:un _ x;"/"];                                       //domain
   a:$[dn=count x;enlist"/";dn _ x];                                                 //absolute path
   :(p;u;d;a);                                                                       //return list as .Q.hap
