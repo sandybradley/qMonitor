@@ -1,25 +1,10 @@
 # QMonitor
 
-Real-time trade volumes for all major crypto currencies, on all major exchanges, written in KDB+.
+Real-time directional trade volume for bitcoin to fiat markets on Binance, Bitfinex, Bitstamp, Kraken and CoinbasePro, written in KDB+.
 
-This script subscribes to all bitcoin market trades on the following exchanges:
+Bittrex, Poloniex and Gemini to be included. The focus of this script is to enable real-time monitor of spot trades between bitcoin and fiat currencies. I have used the largest exchanges by 24 hour volume without fake volume reports. 
 
-- Binance
-- Bittrex
-- Kucoin
-- Coinbasepro
-- Poloniex
-- Kraken
-- Bibox
-- Gemini
-- Huobi
-- Hitbtc
-- Bitmart
-- Bitstamp
-- Okex
-- Bitfinex
-
-Real-time logging in the trades table enables real-time signals and triggers. Please contact me directly to request custom signals.
+Real-time logging in the trades table enables real-time signals and triggers. See https://github.com/sandybradley/qSignals.
 
 Pre-requisites:
 
@@ -52,8 +37,6 @@ XRP - rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh Tag: 103535357
 EOS - binancecleos Memo: 103117718
 
 # Recommended links
-
-Shrimpy's API saved me alot of time with this script  - https://shrimpy.io/referral?r=gQMHqFcZP
 
 Getting started - Coinbase - https://www.coinbase.com/join/bradle_6r
 
