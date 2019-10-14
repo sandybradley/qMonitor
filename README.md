@@ -20,7 +20,7 @@ http://localhost:5010/
 
 WARNING - live trade monitoring consumes alot of bandwidth and logging takes alot of storage. Please monitor and adjust accordingly.
 
-# Donate for development
+# Karma jar
 
 BTC - 112eMCQJUkUz7kvxDSFCGf1nnFJZ61CE4W
 
